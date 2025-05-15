@@ -1,54 +1,55 @@
-# React + TypeScript + Vite
+# To-Do List 🚀 - Desafio Rocketseat
+Olá! 👋 Este foi meu projeto para praticar TypeScript e Tailwind CSS, desenvolvido como desafio do curso da Rocketseat.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💡 Sobre o Projeto
+Como iniciante em desenvolvimento front-end, este desafio me ajudou a:
+- ✅ Aplicar conceitos básicos de TypeScript na prática
+- 🎯 Aprender a utilidade de interfaces e tipos
+- 🎨 Dominar melhor o Tailwind CSS para estilização
+- ⚛️ Entender o fluxo de estado no React
+- 🔄 Implementar funcionalidades CRUD simples
 
-## Expanding the ESLint configuration
+## ✨ Funcionalidades Implementadas
+| Funcionalidade | Descrição |
+|---------------|-----------|
+| ✅ Adição de tarefas | Com validação de campo obrigatório |
+| ✔️ Toggle de status | Marcar/desmarcar como completas |
+| ❌ Exclusão | Remover tarefas individualmente |
+| 📈 Contadores | Totais e completas atualizados automaticamente |
+| 🎨 UI Moderna | Design com tema escuro profissional |
+| 📱 Responsivo | Adaptável para todos os dispositivos |
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🛠 Stack Utilizada
+<div align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite" alt="Vite" />
+</div>
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+## 🚀 Como Rodar Localmente
+
+1. Clone o repositório
 ```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+git clone https://github.com/seu-user/todo-list-rocketseat.git
 ```
+2. Instale as dependências
+```
+npm install
+```
+3. Inicie o servidor
+```
+npm run dev
+```
+# 📚 O Que Aprendi
+- Como tipar estados e props no React
+
+- A criar interfaces para estruturas de dados
+
+- Utilizar utility-first CSS com Tailwind
+
+- Gerenciar estado global sem bibliotecas externas
+
+- Melhores práticas de componentização
