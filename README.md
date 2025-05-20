@@ -33,7 +33,7 @@ Como iniciante em desenvolvimento front-end, este desafio me ajudou a:
 
 1. Clone o repositório
 ```
-git clone https://github.com/seu-user/todo-list-rocketseat.git
+git clone https://github.com/TavaressDev/todo-list-rocketseat.git
 ```
 2. Instale as dependências
 ```
